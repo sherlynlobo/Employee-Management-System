@@ -12,5 +12,7 @@ public interface EmployeeService {
 	
 	Employee getEmployeeById(long id);
 	
+	void deleteEmployeeByID(long id);
+	
 
 }
